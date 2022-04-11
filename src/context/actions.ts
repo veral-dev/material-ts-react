@@ -1,0 +1,7 @@
+export const SHOW_ALERT = 'SHOW_ALERT'
+export const HIDE_ALERT = 'HIDE_ALERT'
+export const SHOW_SNACKBAR = 'SHOW_SNACKBAR'
+export const HIDE_SNACKBAR = 'HIDE_SNACKBAR'
+
+export const FETCH_SECTORS = 'FETCH_SECTORS'
+export const REMOVE_SECTORS = 'REMOVE_SECTORS'

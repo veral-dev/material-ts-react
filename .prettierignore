@@ -1,0 +1,12 @@
+**/node_modules
+**/dist
+**/package.json
+**/yarn.lock
+**/package-lock.json
+**/.eslintrc.js
+**/tsconfig.json
+**/.expo
+
+*.yaml
+*.yml
+*.md
