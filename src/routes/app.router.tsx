@@ -1,5 +1,5 @@
 import React, { useContext } from 'react'
-import { HashRouter, Route, Switch, RouteComponentProps, Redirect } from 'react-router-dom'
+import { BrowserRouter, Route, Switch, RouteComponentProps, Redirect } from 'react-router-dom'
 import { AlertContext } from 'src/context/alert/alertContext'
 import { Alert, AlertColor, Snackbar } from '@mui/material'
 import appRoutes from './appRoutes'
@@ -20,7 +20,7 @@ const AppRouter = (): JSX.Element => {
         </Snackbar>
       )}
 
-      <HashRouter>
+      <BrowserRouter>
         <main>
           <Switch>
             <Route exact path="/" render={() => <Redirect to="/ranking/mpix" />} />
@@ -37,7 +37,7 @@ const AppRouter = (): JSX.Element => {
             <Route exact path="/404" render={() => <h1>Not found!</h1>} />
           </Switch>
         </main>
-      </HashRouter>
+      </BrowserRouter>
     </div>
   )
 }
