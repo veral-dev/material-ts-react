@@ -27,4 +27,4 @@ You can learn more in the [Create React App documentation](https://facebook.gith
 
 ## Project deployed here
 
-[https://focused-lichterman-84361f.netlify.app/](https://focused-lichterman-84361f.netlify.app/) to view it in the browser.
+[https://grand-profiterole-555925.netlify.app/](https://grand-profiterole-555925.netlify.app/) to view it in the browser.
